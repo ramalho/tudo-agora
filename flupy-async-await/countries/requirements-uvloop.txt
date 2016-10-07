@@ -1,0 +1,4 @@
+aiohttp==1.0.3
+requests==2.11.1
+tqdm==4.8.4
+uvloop==0.5.4
