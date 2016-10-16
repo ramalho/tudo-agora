@@ -1,0 +1,216 @@
+Africa	Algeria
+Africa	Angola
+Africa	Benin
+Africa	Botswana
+Africa	Burkina Faso
+Africa	Burundi
+Africa	Cameroon
+Africa	Cape Verde
+Africa	Central African Republic
+Africa	Chad
+Africa	Comoros
+Africa	Congo (Brazzaville)
+Africa	Congo (Kinshasa)
+Africa	Côte d'Ivoire
+Africa	Djibouti
+Africa	Egypt
+Africa	Equatorial Guinea
+Africa	Eritrea
+Africa	Ethiopia
+Africa	Gabon
+Africa	Ghana
+Africa	Gambia
+Africa	Guinea
+Africa	Guinea-Bissau
+Africa	Kenya
+Africa	Lesotho
+Africa	Liberia
+Africa	Libya
+Africa	Madagascar
+Africa	Malawi
+Africa	Mali
+Africa	Mauritania
+Africa	Mauritius
+Africa	Mayotte
+Africa	Morocco
+Africa	Mozambique
+Africa	Namibia
+Africa	Niger
+Africa	Nigeria
+Africa	Rwanda
+Africa	Reunion
+Africa	Sao Tome and Principe
+Africa	Senegal
+Africa	Seychelles
+Africa	Sierra Leone
+Africa	Somalia
+Africa	South Africa
+Africa	South Sudan
+Africa	Sudan
+Africa	Swaziland
+Africa	Tanzania
+Africa	Togo
+Africa	Tunisia
+Africa	Uganda
+Africa	United Republic of Tanzania
+Africa	Western Sahara
+Africa	Zambia
+Africa	Zimbabwe
+Americas	Argentina
+Americas	Aruba
+Americas	Antigua and Barbuda
+Americas	Bahamas
+Americas	Barbados
+Americas	Belize
+Americas	Bolivia
+Americas	Brazil
+Americas	Canada
+Americas	Chile
+Americas	Colombia
+Americas	Costa Rica
+Americas	Cuba
+Americas	Dominica
+Americas	Dominican Republic
+Americas	Ecuador
+Americas	El Salvador
+Americas	French Guiana
+Americas	Grenada
+Americas	Grenadines
+Americas	Guadeloupe
+Americas	Guatemala
+Americas	Guyana
+Americas	Haiti
+Americas	Honduras
+Americas	Jamaica
+Americas	Martinique
+Americas	Mexico
+Americas	Netherlands Antilles
+Americas	Nicaragua
+Americas	Panama
+Americas	Paraguay
+Americas	Peru
+Americas	Puerto Rico
+Americas	Saint Kitts and Nevis
+Americas	Saint Lucia
+Americas	Saint Vincent and the Grenadines
+Americas	Suriname
+Americas	Trinidad and Tobago
+Americas	United States Virgin Islands
+Americas	United States of America
+Americas	Uruguay
+Americas	Venezuela
+Asia	Afghanistan
+Asia	Armenia
+Asia	Azerbaijan
+Asia	Bahrain
+Asia	Bangladesh
+Asia	Bhutan
+Asia	Brunei Darussalam
+Asia	Cambodia
+Asia	China
+Asia	China, Hong Kong Special Administrative Region
+Asia	China, Macao Special Administrative Region
+Asia	Cyprus
+Asia	Georgia
+Asia	India
+Asia	Indonesia
+Asia	Iran
+Asia	Iraq
+Asia	Israel
+Asia	Japan
+Asia	Jordan
+Asia	Kazakhstan
+Asia	Korea, North
+Asia	Korea, South
+Asia	Kuwait
+Asia	Kyrgyzstan
+Asia	Laos
+Asia	Lebanon
+Asia	Malaysia
+Asia	Maldives
+Asia	Mongolia
+Asia	Myanmar
+Asia	Nepal
+Asia	Occupied Palestinian Territory
+Asia	Oman
+Asia	Pakistan
+Asia	Philippines
+Asia	Qatar
+Asia	Republic of Korea
+Asia	Saudi Arabia
+Asia	Singapore
+Asia	Sri Lanka
+Asia	Syria
+Asia	Taiwan
+Asia	Tajikistan
+Asia	Thailand
+Asia	Timor-Leste
+Asia	Turkey
+Asia	Turkmenistan
+Asia	United Arab Emirates
+Asia	Uzbekistan
+Asia	Vietnam
+Asia	Yemen
+Europe	Albania
+Europe	Andorra
+Europe	Austria
+Europe	Belarus
+Europe	Belgium
+Europe	Bosnia and Herzegovina
+Europe	Bulgaria
+Europe	Channel Islands
+Europe	Croatia
+Europe	Czech Republic
+Europe	Denmark
+Europe	Estonia
+Europe	Finland
+Europe	France
+Europe	Germany
+Europe	Greece
+Europe	Hungary
+Europe	Iceland
+Europe	Ireland
+Europe	Italy
+Europe	Latvia
+Europe	Liechtenstein
+Europe	Lithuania
+Europe	Luxembourg
+Europe	Macedonia
+Europe	Malta
+Europe	Monaco
+Europe	Montenegro
+Europe	Netherlands
+Europe	Norway
+Europe	Poland
+Europe	Portugal
+Europe	Moldova
+Europe	Romania
+Europe	Russian Federation
+Europe	San Marino
+Europe	Serbia
+Europe	Slovakia
+Europe	Slovenia
+Europe	Spain
+Europe	Sweden
+Europe	Switzerland
+Europe	The former Yugoslav Republic of Macedonia
+Europe	Ukraine
+Europe	United Kingdom
+Europe	Vatican City
+Oceania	Australia
+Oceania	Fiji
+Oceania	French Polynesia
+Oceania	Guam
+Oceania	Kiribati
+Oceania	Marshall Islands
+Oceania	Micronesia
+Oceania	Nauru
+Oceania	New Caledonia
+Oceania	New Zealand
+Oceania	Palau
+Oceania	Papua New Guinea
+Oceania	Samoa
+Oceania	Solomon Islands
+Oceania	Tonga
+Oceania	Tuvalu
+Oceania	Vanuatu
