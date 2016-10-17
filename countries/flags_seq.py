@@ -40,11 +40,15 @@ def get_flag(cc):
     return resp.content
 
 
+def download_one(cc):
+    image = get_flag(cc)
+    show(cc)
+    save_flag(image, cc.lower() + '.gif')
+
+
 def download_many(cc_list):
     for cc in sorted(cc_list):
-        image = get_flag(cc)
-        show(cc)
-        save_flag(image, cc.lower() + '.gif')
+        download_one(cc)
 
     return len(cc_list)
 

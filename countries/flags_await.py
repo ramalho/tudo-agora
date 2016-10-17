@@ -13,8 +13,7 @@ import os
 import time
 import sys
 
-import asyncio
-import aiohttp
+import requests
 
 POP20_CC = ('CN IN US ID BR PK NG BD RU JP '
             'MX PH VN ET EG DE IR TR CD FR').split()
@@ -35,28 +34,23 @@ def save_flag(img, filename):
         fp.write(img)
 
 
-async def get_flag(cc):
+def get_flag(cc):
     url = '{}/{cc}/{cc}.gif'.format(BASE_URL, cc=cc.lower())
-    resp = await aiohttp.request('GET', url)
-    image = await resp.read()
-    return image
+    resp = requests.get(url)
+    return resp.content
 
 
-async def download_one(cc):
-    image = await get_flag(cc)
+def download_one(cc):
+    image = get_flag(cc)
     show(cc)
     save_flag(image, cc.lower() + '.gif')
-    return cc
 
 
 def download_many(cc_list):
-    loop = asyncio.get_event_loop()
-    task_list = [download_one(cc) for cc in cc_list]
-    super_task = asyncio.wait(task_list)
-    done, _ = loop.run_until_complete(super_task)
-    loop.close()
+    for cc in sorted(cc_list):
+        download_one(cc)
 
-    return len(done)
+    return len(cc_list)
 
 
 def main():
