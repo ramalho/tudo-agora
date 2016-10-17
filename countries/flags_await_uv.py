@@ -1,6 +1,6 @@
 """Download flags of top 20 countries by population
 
-Asynchronous version
+Asynchronous version with uvloop
 
 Sample run::
 
@@ -15,6 +15,7 @@ import sys
 
 import asyncio
 import aiohttp
+import uvloop
 
 POP20_CC = ('CN IN US ID BR PK NG BD RU JP '
             'MX PH VN ET EG DE IR TR CD FR').split()
@@ -49,7 +50,8 @@ async def download_one(cc):
 
 
 def download_many(cc_list):
-    loop = asyncio.get_event_loop()
+    loop = uvloop.new_event_loop()
+    asyncio.set_event_loop(loop)
     task_list = [download_one(cc) for cc in cc_list]
     super_task = asyncio.wait(task_list)
     done, _ = loop.run_until_complete(super_task)
