@@ -1,10 +1,10 @@
 """Download flags of top 20 countries by population
 
-Sequential version
+Asynchronous version
 
 Sample run::
 
-    $ python3 flags_seq.py
+    $ python3 flags_await.py
     BD BR CD CN DE EG ET FR ID IN IR JP MX NG PH PK RU TR US VN
     20 flags downloaded in 10.16s
 
@@ -13,7 +13,8 @@ import os
 import time
 import sys
 
-import requests
+import asyncio
+import aiohttp
 
 POP20_CC = ('CN IN US ID BR PK NG BD RU JP '
             'MX PH VN ET EG DE IR TR CD FR').split()
@@ -34,23 +35,27 @@ def save_flag(img, filename):
         fp.write(img)
 
 
-def get_flag(cc):
+async def get_flag(cc):
     url = '{}/{cc}/{cc}.gif'.format(BASE_URL, cc=cc.lower())
-    resp = requests.get(url)
-    return resp.content
+    resp = await aiohttp.request('GET', url)
+    image = await resp.read()
+    return image
 
 
-def download_one(cc):
-    image = get_flag(cc)
+async def download_one(cc):
+    image = await get_flag(cc)
     show(cc)
     save_flag(image, cc.lower() + '.gif')
 
 
 def download_many(cc_list):
-    for cc in sorted(cc_list):
-        download_one(cc)
+    loop = asyncio.get_event_loop()
+    task_list = [download_one(cc) for cc in cc_list]
+    super_task = asyncio.wait(task_list)
+    done, _ = loop.run_until_complete(super_task)
+    loop.close()
 
-    return len(cc_list)
+    return len(done)
 
 
 def main():
